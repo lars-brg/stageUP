@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap');
+@import url('https://geisthub.vercel.app/font/Geist.css');
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --eclipse-black: #1b1b1b;
+  --monlight-gray: #a8a9ad;
+  --astral-blue: #24476c;
+  --midnight-navy: #0a122a;
+  --stardust-white: #e6e8e6;
+
+  --font-outfit: 'Outfit', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+  --font-geist: 'Geist', sans-serif;
+}
+
+
+body {
+  background: var(--stardust-white);
+  color: var(--eclipse-black);
+  font-family: var(--font-geist);
+}
