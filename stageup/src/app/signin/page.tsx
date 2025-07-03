@@ -30,7 +30,7 @@ export default function SignInPage() {
     if (Object.keys(v).length === 0) {
       const isAluno =
         email.toLowerCase().includes('@aluno') ||
-        email.toLowerCase().endsWith('.edu.br');
+        email.toLowerCase().endsWith('alu.ufc.br');
 
       router.push(isAluno ? '/aluno' : '/empresario');
     }
