@@ -21,7 +21,7 @@
 
 
 body {
-  background: var(--stardust-white);
-  color: var(--eclipse-black);
+  background: var(--color-stardust-white);
+  color: var(--color-eclipse-black);
   font-family: var(--font-geist);
 }
