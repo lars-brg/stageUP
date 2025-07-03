@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/logo_stageup.png";
 
 export default function Sidebar() {
     return (
         <aside className="w-1/5 h-screen bg-astral-blue text-white p-6 flex-col justify-between">
             <div>
                 <Link href={"/"}>
-                    <Image src={Logo} alt="Logo" width={150} height={150} />
+                    <Image src="/logo_stageup.png" alt="Logo" width={150} height={150} />
                 </Link>
             </div>
             <nav className="mt-10">
