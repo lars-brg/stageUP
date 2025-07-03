@@ -3,15 +3,15 @@
 @import "tailwindcss";
 
 
-:root {
+@theme {
   --background: #ffffff;
   --foreground: #171717;
 
-  --eclipse-black: #1b1b1b;
-  --monlight-gray: #a8a9ad;
-  --astral-blue: #24476c;
-  --midnight-navy: #0a122a;
-  --stardust-white: #e6e8e6;
+  --color-eclipse-black: #1b1b1b;
+  --color-monlight-gray: #a8a9ad;
+  --color-astral-blue: #24476c;
+  --color-midnight-navy: #0a122a;
+  --color-stardust-white: #e6e8e6;
 
   --font-outfit: 'Outfit', sans-serif;
   --font-raleway: 'Raleway', sans-serif;
@@ -20,7 +20,7 @@
 
 
 body {
-  background: var(--stardust-white);
-  color: var(--eclipse-black);
+  background: var(--color-stardust-white);
+  color: var(--color-eclipse-black);
   font-family: var(--font-geist);
 }
