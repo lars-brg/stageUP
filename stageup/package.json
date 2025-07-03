@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/geist-sans": "^5.2.5",
+    "@fontsource/outfit": "^5.2.6",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
