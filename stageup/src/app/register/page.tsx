@@ -12,7 +12,7 @@ type Errors = Partial<{
 }>;
 
 export default function RegisterPage() {
-  /* ------------------------- estado do formulário ------------------------ */
+  /*estado do formulário*/
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -23,7 +23,7 @@ export default function RegisterPage() {
 
   const router = useRouter();
 
-  /* ------------------------- validação & submit -------------------------- */
+  /*validação  submit*/
   function validate(): Errors {
     const err: Errors = {};
     if (!name.trim()) err.name = 'Nome obrigatório.';
@@ -39,12 +39,11 @@ export default function RegisterPage() {
     const v = validate();
     setErrors(v);
     if (Object.keys(v).length === 0) {
-      // aqui você chamaria sua API; quando tudo ok:
       router.push('/signin'); // redireciona para página de login
     }
   }
 
-  /* ----------------------------- componente ------------------------------ */
+  /*componentes*/
   return (
     <div className="min-h-screen flex bg-[#f7f9f8] font-outfit text-base">
       {/* Coluna lateral */}
@@ -173,7 +172,7 @@ export default function RegisterPage() {
           </button>
         </form>
 
-        {/* Link login */}
+        {/* Link de login */}
         <p className="mt-6 text-center text-[#0a122a]">
           Já é um membro?{' '}
           <a href="/signin" className="underline text-[#004ea0]">Clique aqui para fazer login!</a>

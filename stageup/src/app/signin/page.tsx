@@ -12,7 +12,7 @@ export default function SignInPage() {
   const [errors, setErrors] = useState<Errors>({});
   const router = useRouter();
 
-  /* ---------------- validação simples ---------------- */
+  /* validação de login */
   function validate(): Errors {
     const err: Errors = {};
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
@@ -21,17 +21,13 @@ export default function SignInPage() {
     return err;
   }
 
-  /* --------------- submit + roteamento --------------- */
+  /* checa se o email é institucional ou empresarial*/
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const v = validate();
     setErrors(v);
 
     if (Object.keys(v).length === 0) {
-      /* regra de exemplo
-         - e‑mails institucionais de aluno → /aluno
-         - qualquer outro domínio → /empresario
-         ajuste aqui se mudar suas regras reais                     */
       const isAluno =
         email.toLowerCase().includes('@aluno') ||
         email.toLowerCase().endsWith('.edu.br');
@@ -40,10 +36,10 @@ export default function SignInPage() {
     }
   }
 
-  /* ------------------- UI ------------------- */
+  /*Interface*/
   return (
     <div className="min-h-screen flex bg-[#f7f9f8] font-outfit text-base">
-      {/* Lateral azul */}
+      {/* Borda*/}
       <div className="hidden lg:flex items-center justify-center">
         <img
           src="/assets/Lateral login.svg"
@@ -110,7 +106,7 @@ export default function SignInPage() {
             )}
           </div>
 
-          {/* Lembrar + link */}
+          {/* Lembrar e esqueci minha senha*/}
           <div className="flex items-center justify-between text-sm">
             <label className="flex items-center gap-2 text-[#0a122a]">
               <input
@@ -134,7 +130,7 @@ export default function SignInPage() {
           </button>
         </form>
 
-        {/* Link cadastro */}
+        {/* Link para cadastro */}
         <p className="mt-10 text-center text-[#0a122a]">
           Ainda não é membro?{' '}
           <a href="/register" className="underline font-semibold">

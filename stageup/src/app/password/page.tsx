@@ -12,10 +12,10 @@ type Errors = { email?: string };
 export default function ForgotPasswordPage() {
   const [email, setEmail]     = useState('');
   const [errors, setErrors]   = useState<Errors>({});
-  const [submitted, setSent]  = useState(false);          // ✅ controla feedback
+  const [submitted, setSent]  = useState(false);
   const router = useRouter();
 
-  /* ---------- validação ---------- */
+  /* validação do email*/
   const validate = (): Errors => {
     const err: Errors = {};
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
@@ -23,18 +23,17 @@ export default function ForgotPasswordPage() {
     return err;
   };
 
-  /* ---------- submit ---------- */
+  /*submit*/
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const v = validate();
     setErrors(v);
     if (Object.keys(v).length === 0) {
-      // aqui você chamaria sua API de reset‑password
-      setSent(true);                       // mostra mensagem de sucesso
+      setSent(true);
     }
   }
 
-  /* ---------- redireciona 15 s depois ---------- */
+  /*timer para redirecionar para a pagina de login*/
   useEffect(() => {
     if (submitted) {
       const id = setTimeout(() => router.push('/signin'), 10_000);
@@ -42,7 +41,7 @@ export default function ForgotPasswordPage() {
     }
   }, [submitted, router]);
 
-  /* ---------- UI ---------- */
+  /*Interface*/
   return (
     <div className="min-h-screen flex bg-[#f7f9f8] font-outfit text-base">
       {/* Lateral */}
@@ -55,12 +54,11 @@ export default function ForgotPasswordPage() {
         />
       </div>
 
-      {/* Conteúdo */}
       <div className="flex flex-col items-center justify-center w-full lg:w-[55%] px-6 sm:px-12">
         <Image src={Logo} alt="Logo tage" width={209} height={83} className="mb-8" />
 
         {submitted ? (
-          /* ---------- Tela de confirmação ---------- */
+          /*Tela de confirmação*/
           <>
             <h1
               style={{ fontFamily: 'Geist, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '1.2' }}
@@ -74,7 +72,7 @@ export default function ForgotPasswordPage() {
             </p>
           </>
         ) : (
-          /* ---------- Formulário ---------- */
+          /*Formulário*/
           <>
             <h1
               style={{ fontFamily: 'Geist, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '1.2' }}
