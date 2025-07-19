@@ -4,7 +4,7 @@ import { RectangleGroupIcon, PencilSquareIcon, UserGroupIcon, DocumentDuplicateI
 
 export default function Sidebar() {
     return (
-        <aside className="w-1/5 h-screen bg-astral-blue text-white p-6 flex-col justify-between">
+        <aside className="w-1/5 h-screen bg-astral-blue text-white p-6 flex-col justify-between border-r-3 border-border-blue">
             <div className="flex items-center justify-center mb-8">
                 <Link href={"/"}>
                     <Image src="/logo_stageup.png" alt="Logo" width={150} height={150} />
