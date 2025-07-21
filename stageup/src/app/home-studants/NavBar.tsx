@@ -3,7 +3,7 @@ import { Container } from '../components/container'
 import Image from 'next/image'
 import Logo from '../../../public/assets/logoVersion2.svg'
 import ButtonFilled from './buttonFilled'
-import ButtonStroked from './buttonStroked'
+// import ButtonStroked from './buttonStroked'
 
 function NavBar() {
   return (

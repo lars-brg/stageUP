@@ -2,6 +2,7 @@
 
 import { useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 type Errors = Partial<{ email: string; password: string }>;
 
@@ -41,10 +42,11 @@ export default function SignInPage() {
     <div className="min-h-screen flex bg-[#f7f9f8] font-outfit text-base">
       {/* Borda*/}
       <div className="hidden lg:flex items-center justify-center">
-        <img
+        <Image
           src="/assets/Lateral login.svg"
           alt="Padrão decorativo"
-          style={{ width: '506px', height: '1002px' }}
+          width={506}
+          height={1002}
           className="object-cover"
         />
       </div>
@@ -52,12 +54,14 @@ export default function SignInPage() {
       {/* Formulário */}
       <div className="flex flex-col items-center justify-center w-full lg:w-[55%] px-6 sm:px-12">
         {/* Logo */}
-        <img
+        <Image
           src="/assets/logo.svg"
           alt="Logo tage"
-          style={{ width: '209px', height: '83px' }}
+          width={209}
+          height={83}
           className="mb-8"
         />
+
 
         {/* Título */}
         <h1

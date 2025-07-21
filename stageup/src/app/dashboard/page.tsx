@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 import DashboardEmpresa from "@/components/dashboardEmpresa";
-import { BellIcon, ChartBarIcon, ClipboardDocumentListIcon, UsersIcon, EyeIcon, VideoCameraIcon, NoSymbolIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+// import { BellIcon, ChartBarIcon, ClipboardDocumentListIcon, UsersIcon, EyeIcon, VideoCameraIcon, NoSymbolIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 
 export default function Dashboard() {
     return (
