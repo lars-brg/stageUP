@@ -12,15 +12,22 @@
   --color-main-blue: #2065A2;
   --color-astral-blue: #24476c;
   --color-border-blue: #013c5a;
+  --color-card-blue: #427BB8;
   --color-mid-blue: #0d3561;
   --color-gray-blue: #545c7d;
   --color-midnight-navy: #0a122a;
   --color-stardust-white: #e6e8e6;
+  --color-red-delete: #D51F1F;
 
   --color-red-expired: #e79b9b;
   --color-yellow-await: #e1e79b;
   --color-green-accepted: #9be7a9;
   --color-blue-interview: #9babe7;
+
+  --color-green-typo-accepted: #436649;
+  --color-yellow-typo-await: #6D7147;
+  --color-red-typo-rejected: #714747;
+  --color-gray-typo-non-evaluated: #525253;
 
   --font-outfit: 'Outfit', sans-serif;
   --font-raleway: 'Raleway', sans-serif;
