@@ -46,10 +46,10 @@ export default function SidebarEstudante() {
                         Perfil
                     </Link>
 
-                    <button className="flex items-center px-2 py-2 text-stardust-white hover:text-stardust-white hover:bg-red-600 rounded-lg transition-colors w-full text-left">
+                    <Link href="../../" className="flex items-center px-2 py-2 text-stardust-white hover:text-stardust-white hover:bg-red-600 rounded-lg transition-colors w-full text-left">
                         <ArrowRightOnRectangleIcon className="w-5 h-5 mr-3" />
                         Sair
-                    </button>
+                    </Link>
                 </div>
             </div>
         </aside>
