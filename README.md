@@ -1,4 +1,4 @@
-![CAPA - GITHUB](<img width="3000" height="2250" alt="Billboards" src="https://github.com/user-attachments/assets/2eb34d33-d65b-46f3-a539-1d244987d110" />
+![CAPA - GITHUB](<img width="3000" height="2250" alt="Billboards" src="https://github.com/user-attachments/assets/a7a94682-364d-4f7c-b3e5-4c3480d0f371" />
 )
 
 <h1 align="center">StageUp</h1>
