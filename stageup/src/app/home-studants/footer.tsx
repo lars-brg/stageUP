@@ -19,17 +19,17 @@ function Footer() {
             <div className='flex w-[50%] gap-10 font-outfit'>
                 <div className='flex flex-col gap-2 w-full'>
                     <h3 className='text-shadow-midnight-navy text-md font-bold '>Para Empresas</h3>
-                    <p className='text-md '>Opção 1</p>
-                    <p className='text-md '>Opção 2</p>
-                    <p className='text-md '>Opção 3</p>
-                    <p className='text-md '>Opção 4</p>
-                    <p className='text-md '>Opção 5</p>
+                    <p className='text-md '>Dashboard</p>
+                    <p className='text-md '>Lançar vagas</p>
+                    <p className='text-md '>Analisar candidatos</p>
+                    <p className='text-md '>Entrevistas</p>
+                    <p className='text-md '>Perfil</p>
                 </div>
                 <div className='flex flex-col gap-2 w-full'>
                     <h3 className='text-shadow-midnight-navy text-md font-bold '>Para Alunos</h3>
-                    <p className='text-md '>Opção 1</p>
-                    <p className='text-md '>Opção 2</p>
-                    <p className='text-md '>Opção 3</p>
+                    <p className='text-md '>Dashboard</p>
+                    <p className='text-md '>Vagas salvas</p>
+                    <p className='text-md '>Perfil</p>
                 </div>
             </div>
         </footer>

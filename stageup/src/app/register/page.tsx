@@ -2,6 +2,7 @@
 
 import { useState, FormEvent, ChangeEvent } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 type Errors = Partial<{
   name: string;
@@ -48,10 +49,11 @@ export default function RegisterPage() {
     <div className="min-h-screen flex bg-[#f7f9f8] font-outfit text-base">
       {/* Coluna lateral */}
       <div className="hidden lg:flex items-center justify-center bg-[#f7f9f8]">
-        <img
+        <Image
           src="/assets/Lateral login.svg"
           alt="Ilustração decorativa"
-          style={{ width: '506px', height: '1002px' }}
+          width={506}
+          height={1002}
           className="object-cover"
         />
       </div>
@@ -59,10 +61,11 @@ export default function RegisterPage() {
       {/* Formulário */}
       <div className="flex flex-col items-center justify-center w-full lg:w-[55%] px-6 sm:px-10 py-8">
         {/* Logo */}
-        <img
+        <Image
           src="/assets/logo.svg"
           alt="Logo"
-          style={{ width: '209px', height: '83px' }}
+          width={209}
+          height={83}
           className="mb-4"
         />
 

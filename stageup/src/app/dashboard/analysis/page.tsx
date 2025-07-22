@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { ArrowTopRightOnSquareIcon, ClockIcon, MagnifyingGlassIcon, TrashIcon, BellIcon, EllipsisVerticalIcon } from '@heroicons/react/24/outline';
+import { ArrowTopRightOnSquareIcon, TrashIcon, BellIcon, EllipsisVerticalIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 type AnaliseCandidatura = {
     nome: string;
@@ -11,7 +12,7 @@ type AnaliseCandidatura = {
 };
 
 export default function AnaliseCandidaturas() {
-    const [candidaturas, setCandidaturas] = useState<AnaliseCandidatura[]>([
+    const [candidaturas] = useState<AnaliseCandidatura[]>([
         {
             nome: "João Silva",
             curso: "Engenharia da Computação",
@@ -51,10 +52,12 @@ export default function AnaliseCandidaturas() {
                             <BellIcon className="w-6 h-6 text-stardust-white" />
                         </button>
                         <div className="flex items-center space-x-8">
-                            <img
+                            <Image
                                 src="/Logo-momentus.png"
                                 alt="Profile"
-                                className="w-12 h-12 rounded-full"
+                                width={48}
+                                height={48}
+                                className="rounded-full"
                             />
                             <div>
                                 <p className="text-sm font-semibold font-outfit text-stardust-white">momentus</p>

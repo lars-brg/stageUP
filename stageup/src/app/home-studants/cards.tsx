@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ButtonFilled from "./buttonFilled";
 import ButtonStroked from "./buttonStroked";
 
 type JobCardProps = {
@@ -10,6 +9,7 @@ type JobCardProps = {
   valor: string;
   data: string;
   imagem: string;
+  
 };
 
 export default function JobCard({
@@ -43,7 +43,7 @@ export default function JobCard({
       {/* Direita - Botões */}
       <div className="flex gap-4">
         <ButtonStroked text="Salvar"/>
-        <ButtonFilled text="Aplicar"/>
+        <ButtonStroked text="Aplicar"/>
       </div>
     </div>
   );

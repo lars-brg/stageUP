@@ -1,10 +1,10 @@
 import React from "react";
-import Sidebar from "@/components/sidebar";
+import SidebarEmpresa from "./sidebarEmpresa";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen">
-      <Sidebar />
+      <SidebarEmpresa />
       <main className="flex-1 bg-white">
         {children}
       </main>

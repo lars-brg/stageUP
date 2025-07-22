@@ -1,9 +1,10 @@
 import React from 'react'
 import { Container } from '../components/container'
 import Image from 'next/image'
+import Link from 'next/link'
 import Logo from '../../../public/assets/logoVersion2.svg'
 import ButtonFilled from './buttonFilled'
-import ButtonStroked from './buttonStroked'
+// import ButtonStroked from './buttonStroked'
 
 function NavBar() {
   return (
@@ -17,13 +18,17 @@ function NavBar() {
                 height={150}
                 />
             <div className='flex gap-4 items-center'>
-                <button className="px-4 py-2 border-2 border-main-blue hover:bg-astral-blue text-white rounded-md font-semibold">
-                    Entrar
-                </button>
+                <Link href="/signin">
+                    <button className="px-4 py-2 border-2 border-main-blue hover:bg-astral-blue text-white rounded-md font-semibold">
+                        Entrar
+                    </button>
+                </Link>
 
-                <ButtonFilled
-                    text='Cadastrar-se'
-                />
+                <Link href="/register">
+                    <ButtonFilled
+                        text='Cadastrar-se'
+                    />
+                </Link>
 
             </div>
         </div>

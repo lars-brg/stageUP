@@ -2,6 +2,7 @@
 
 import { BellIcon, ChartBarIcon, ChatBubbleLeftRightIcon, ClipboardDocumentListIcon, EyeIcon, NoSymbolIcon, UserGroupIcon, VideoCameraIcon } from "@heroicons/react/24/outline";
 import React from "react";
+import Image from 'next/image';
 
 interface VagaAlerta {
     titulo: string;
@@ -40,11 +41,13 @@ export default function DashboardEmpresa({
                             <BellIcon className="w-6 h-6 text-stardust-white" />
                         </button>
                         <div className="flex items-center space-x-8">
-                            <img
+                            <Image
                                 src="/Logo-momentus.png"
                                 alt="Profile"
+                                width={48}
+                                height={48}
                                 className="w-12 h-12 rounded-full"
-                            />
+                                />
                             <div>
                                 <p className="text-sm font-semibold font-outfit text-stardust-white">momentus</p>
                                 <p className="text-xs font-light font-raleway text-stardust-white">Eventos e cia</p>

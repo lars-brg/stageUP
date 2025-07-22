@@ -6,6 +6,7 @@ import {
     XMarkIcon,
 } from '@heroicons/react/24/outline';
 import React, { useState } from 'react';
+                            import Image from 'next/image';
 
 interface Vaga {
     titulo: string;
@@ -46,15 +47,15 @@ export default function JobsVacancies() {
             return;
         }
 
-        const novaVaga = {
-            titulo,
-            descricao,
-            local,
-            salarioRaw,
-            dataInicio,
-            linkCurriculo,
-            tipoVaga,
-        };
+        // const novaVaga = {
+        //     titulo,
+        //     descricao,
+        //     local,
+        //     salarioRaw,
+        //     dataInicio,
+        //     linkCurriculo,
+        //     tipoVaga,
+        // };
 
         const novasVagas = [...vagas, { titulo }];
         setVagas(novasVagas);
@@ -109,11 +110,15 @@ export default function JobsVacancies() {
                             <BellIcon className="w-6 h-6 text-stardust-white" />
                         </button>
                         <div className="flex items-center space-x-8">
-                            <img
+
+                                <Image
                                 src="/Logo-momentus.png"
                                 alt="Profile"
+                                width={48}
+                                height={48}
                                 className="w-12 h-12 rounded-full"
-                            />
+                                />
+
                             <div>
                                 <p className="text-sm font-semibold font-outfit text-stardust-white">momentus</p>
                                 <p className="text-xs font-light font-raleway text-stardust-white">Eventos e cia</p>
