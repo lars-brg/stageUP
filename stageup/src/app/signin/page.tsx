@@ -33,7 +33,7 @@ export default function SignInPage() {
         email.toLowerCase().includes('@aluno') ||
         email.toLowerCase().endsWith('alu.ufc.br');
 
-      router.push(isAluno ? '/dashboard/Aluno' : '/dashboard/Empresa');
+      router.push(isAluno ? '/Aluno' : '/dashboard/Empresa');
     }
   }
 

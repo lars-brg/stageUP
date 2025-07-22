@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { RectangleGroupIcon, PencilSquareIcon, UserGroupIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
+import { RectangleGroupIcon, PencilSquareIcon, UserGroupIcon } from "@heroicons/react/24/outline";
 
 export default function SidebarEmpresa() {
     return (
@@ -33,10 +33,10 @@ export default function SidebarEmpresa() {
                     <UserGroupIcon className="w-6 h-6 mr-3" />
                     Analisar Candidatos
                 </a>
-                <a href="/dashboard/interview" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue">
+                {/* <a href="/dashboard/interview" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue">
                     <DocumentDuplicateIcon className="w-6 h-6 mr-3" />
                     Entrevistas
-                </a>
+                </a> */}
 
 
                 <p className="text-md font-bold mt-10 mb-3">Ferramentas</p>

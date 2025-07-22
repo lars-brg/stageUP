@@ -27,11 +27,11 @@ export default function SidebarEstudante() {
 
                 {/* Menu principal */}
                 <nav className="flex-1 px-4 space-y-3 font-outfit font-medium">
-                    <Link href="/dashboard/Aluno" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue transition-colors">
+                    <Link href="/Aluno" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue transition-colors">
                         <RectangleGroupIcon className="w-6 h-6 mr-3" />
                         Dashboard
                     </Link>
-                    <Link href="/dashboard/Aluno/vagas-salvas" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue transition-colors">
+                    <Link href="/Aluno/vagas-salvas" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue transition-colors">
                         <BookmarkIcon className="w-6 h-6 mr-3" />
                         Vagas salvas
                     </Link>
@@ -41,12 +41,12 @@ export default function SidebarEstudante() {
             {/* Seção inferior - Ferramentas */}
             <div className="px-4 pb-4">
                 <div className="space-y-2">
-                    <Link href="/dashboard/Aluno/perfil" className="flex items-center px-2 py-2 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg transition-colors">
+                    <Link href="/Aluno/perfil" className="flex items-center px-2 py-2 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg transition-colors">
                         <UserIcon className="w-5 h-5 mr-3" />
                         Perfil
                     </Link>
 
-                    <Link href="../../" className="flex items-center px-2 py-2 text-stardust-white hover:text-stardust-white hover:bg-red-600 rounded-lg transition-colors w-full text-left">
+                    <Link href="../" className="flex items-center px-2 py-2 text-stardust-white hover:text-stardust-white hover:bg-red-600 rounded-lg transition-colors w-full text-left">
                         <ArrowRightOnRectangleIcon className="w-5 h-5 mr-3" />
                         Sair
                     </Link>

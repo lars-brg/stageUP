@@ -34,7 +34,7 @@ export default function DashboardEstudantePage() {
             isVisible: !processosOcultos.includes(originalIndex)
         }));
 
-    // 4. Funções para controlar ações
+    // Funções para controlar ações
     const toggleVisibilidade = (index: number) => {
         setProcessosOcultos(prev => 
             prev.includes(index) 
