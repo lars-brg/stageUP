@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RectangleGroupIcon, PencilSquareIcon, UserGroupIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
 
-export default function Sidebar() {
+export default function SidebarEmpresa() {
     return (
         <aside className="w-1/5 h-screen bg-astral-blue text-white p-6 flex-col justify-between border-r-3 border-border-blue">
             <div className="flex items-center justify-center mb-8">
