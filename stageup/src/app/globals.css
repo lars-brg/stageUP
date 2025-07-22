@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --color-eclipse-black: #1b1b1b;
+  --color-monlight-gray: #a8a9ad;
+  --color-main-blue: #2065A2;
+  --color-astral-blue: #24476c;
+  --color-border-blue: #013c5a;
+  --color-card-blue: #427BB8;
+  --color-mid-blue: #0d3561;
+  --color-gray-blue: #545c7d;
+  --color-midnight-navy: #0a122a;
+  --color-stardust-white: #e6e8e6;
+  --color-red-delete: #D51F1F;
+
+  --color-red-expired: #e79b9b;
+  --color-yellow-await: #e1e79b;
+  --color-green-accepted: #9be7a9;
+  --color-blue-interview: #9babe7;
+
+  --color-green-typo-accepted: #436649;
+  --color-yellow-typo-await: #6D7147;
+  --color-red-typo-rejected: #714747;
+  --color-gray-typo-non-evaluated: #525253;
+
+  --font-outfit: 'Outfit', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+  --font-geist: 'Geist', sans-serif;
+}
+
+
+body {
+  background: var(--color-stardust-white);
+  color: var(--color-eclipse-black);
+  font-family: var(--font-geist);
+}
