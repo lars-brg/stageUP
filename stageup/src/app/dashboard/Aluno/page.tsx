@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import DashboardEstudante, { ProcessoSeletivo } from "@/components/dashboardAluno";
 
 export default function DashboardEstudantePage() {
-    // 1. PRIMEIRO definir o array original
     const processosOriginais: ProcessoSeletivo[] = [
         {
             empresa: "Petrobras",
@@ -23,11 +22,11 @@ export default function DashboardEstudantePage() {
         },
     ];
 
-    // 2. Estados para controlar visibilidade e remoção
+    // Estados para controlar visibilidade e a remoção
     const [processosRemovidos, setProcessosRemovidos] = useState<number[]>([]);
     const [processosOcultos, setProcessosOcultos] = useState<number[]>([]);
 
-    // 3. Filtrar processos (remover os deletados e aplicar visibilidade)
+    // remover os deletados e aplicar visibilidade
     const processosEmAndamento = processosOriginais
         .filter((_, index) => !processosRemovidos.includes(index))
         .map((processo, originalIndex) => ({
@@ -48,7 +47,7 @@ export default function DashboardEstudantePage() {
         setProcessosRemovidos(prev => [...prev, index]);
     };
 
-    // 5. Calcular valores baseados nos processos visíveis
+    //altera os valores baseados nos processos visíveis
     const processosVisiveis = processosEmAndamento.filter(p => p.isVisible);
     const vagasAplicadas = processosVisiveis.length;
     const entrevistasAgendadas = processosVisiveis.filter(

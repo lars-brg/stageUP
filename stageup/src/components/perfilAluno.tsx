@@ -39,7 +39,7 @@ export default function PerfilAluno({
         if (novaArea.trim()) {
             const novaAreaObj: AreaInteresse = {
                 nome: novaArea.trim(),
-                id: Date.now() // ID simples baseado em timestamp
+                id: Date.now() 
             };
             setAreasInteresse(prev => [...prev, novaAreaObj]);
             setNovaArea("");

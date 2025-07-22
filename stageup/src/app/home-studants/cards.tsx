@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ButtonFilled from "./buttonFilled";
 import ButtonStroked from "./buttonStroked";
 
 type JobCardProps = {

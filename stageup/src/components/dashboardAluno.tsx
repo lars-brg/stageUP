@@ -38,8 +38,8 @@ export default function DashboardEstudante({
     nomeEstudante,
     cursoEstudante,
     fotoEstudante,
-    onToggleVisibilidade,  // Adicionar
-    onRemoverProcesso,     // Adicionar
+    onToggleVisibilidade,  
+    onRemoverProcesso,    
 }: DashboardEstudanteProps) {
     return (
         <div className="flex flex-col min-h-screen w-full">
@@ -163,7 +163,6 @@ export default function DashboardEstudante({
     );
 }
 
-// Componente reutilizado para os cards de resumo
 interface CardResumoProps {
     titulo: string;
     valor: number;

@@ -75,7 +75,6 @@ export default function VagasSalvasPage() {
 
   const aplicarVaga = (vaga: VagaSalva) => {
     console.log('Aplicar para vaga:', vaga.empresa, '-', vaga.vaga);
-    // Aqui você pode adicionar lógica para aplicar na vaga
   };
 
   return (
