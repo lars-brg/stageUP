@@ -25,7 +25,6 @@ export default function VagaSalvaCard({
 }: VagaSalvaCardProps) {
   return (
     <div className="p-4 rounded-lg flex justify-between items-center w-full bg-white border border-gray-200">
-      {/* Esquerda - Igual ao JobCard original */}
       <div className="flex gap-4 items-start">
         <Image
           src={imagem}
