@@ -1,6 +1,4 @@
-![CAPA - GITHUB](<img width="3000" height="2250" alt="Billboards" src="https://github.com/user-attachments/assets/a7a94682-364d-4f7c-b3e5-4c3480d0f371" />
-)
-
+<img width="3000" height="2250" alt="Billboards" src="https://github.com/user-attachments/assets/27a8afe6-1607-4863-9029-5fa1753f5fb2" />
 <h1 align="center">StageUp</h1>
 
 ## Descrição
@@ -44,20 +42,19 @@ npm run dev
 
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/21b4ba39-3758-44b4-8bb5-e16b19a073e9" alt="Imagem 1" width="450px"><br />Imagem 1 - Login</td>
-   <td align="center"><img src="https://github.com/user-attachments/assets/86e777dc-4de5-4799-8719-d12c5db092cc" alt="Imagem 1" width="450px"><br />Imagem 2 - Perfil do Usuário</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/69847723-5beb-487c-9b0b-d1c7ef499ccf" alt="Imagem 1" width="450px"><br />Imagem 1 - Cadastro</td>
+   <td align="center"><img src="https://github.com/user-attachments/assets/ac63560c-a7c2-43e0-a7e1-916b75d9a7e3" alt="Imagem 1" width="450px"><br />Imagem 2 - Login</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/345b24c4-9f30-4552-b235-b8472cd46826" alt="Imagem 1" width="450px"><br />Imagem 3 - Dashboard</td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/56ee7d1f-92f2-44b1-88c4-d635a9842a42" alt="Imagem 1" width="450px"><br />Imagem 4 - Ingressos</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/ad707445-13b1-48d4-9944-3cb9c3685250" alt="Imagem 1" width="450px"><br />Imagem 3 - Dashboard Empresas</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/191def08-5d36-4f73-9b12-3785c9bbc70b" alt="Imagem 1" width="450px"><br />Imagem 4 - Dashboard Alunos</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/7690f727-ea6a-4798-83a0-dd8c37b9a95a" alt="Imagem 1" width="450px"><br />Imagem 5 - Time</td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/5eb424ea-0df5-42f3-8e86-6673eb4a19d6" alt="Imagem 1" width="450px"><br />Imagem 6 - Finanças</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/afdd8f09-64ac-4ace-b7e9-caa62bcb6f7e" alt="Imagem 1" width="450px"><br />Imagem 5 - Analisar Vagas</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/32158a57-64e9-4006-ac6b-178d4a03b290" alt="Imagem 1" width="450px"><br />Imagem 6 - Analisar Candidatos</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/611969c6-9751-4a52-8a11-6d5000188871" alt="Imagem 1" width="450px"><br />Imagem 7 - Cronograma</td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/b5eeffa4-8466-48c3-b05a-b8f5a9c89d2d" alt="Imagem 1" width="450px"><br />Imagem 8 - Página do evento</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/2002fb05-0fc3-4961-8f4e-39bbbe6f8f33" alt="Imagem 1" width="450px"><br />Imagem 7 - Entrevistas</td>
   </tr>
 </table>
 
@@ -98,9 +95,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <table>
   <tr>
     <td align="center"><a href="https://github.com/lars-brg"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/118675951?v=4" width="100px;" alt=""/><br /><sub><b>Lara Braga</b></sub></a><br />🖱
-    <td align="center"><a href="https://github.com/Miguel-Edson"><img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/v2/D4D03AQFtILnptJjTyA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713018411022?e=1746057600&v=beta&t=2RPrLkepgdsXLmUjYzZOcYfZMQzqH1_FQ5KFw5_Zuis" width="100px;" alt=""/><br /><sub><b>Miguel Edson Ramos</b></sub></a><br />🖱
-    <td align="center"><a href="https://github.com/Atila-dev"><img style="border-radius: 50%;" src="<img width="933" height="932" alt="image" src="https://github.com/user-attachments/assets/c1df9e39-cf23-495e-9457-5f46d6bef2f6" />
-" width="100px;" alt=""/><br /><sub><b>Átila Fontenele</b></sub></a><br />🖱
+    <td align="center"><a href="https://github.com/Miguel-Edson"><img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/v2/D4D03AQG1KpceYov5sQ/profile-displayphoto-shrink_400_400/B4DZbaCg22HQAg-/0/1747414820184?e=1756339200&v=beta&t=yTdi6qZWw4A_QUnZCU8Alg9OT2CG1Ux8trP8A3R5aQM" width="100px;" alt=""/><br /><sub><b>Miguel Edson Ramos</b></sub></a><br />🖱
+    <td align="center"><a href="https://github.com/Miguel-Edson"><img style="border-radius: 50%;" src="https://github.com/user-attachments/assets/6fb68f33-9288-41eb-926b-98530c3ecd57" width="100px;" alt=""/><br /><sub><b>Àtila Fontenele</b></sub></a><br />🖱
   </tr>
 </table>
 
