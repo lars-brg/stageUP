@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 type ButtonText = {
   text: string;
@@ -6,9 +7,11 @@ type ButtonText = {
 
 function ButtonStroked({ text }: ButtonText) {
   return (
-    <button className="px-4 py-2 border-2 border-main-blue hover:bg-astral-blue text-black rounded-md font-semibold">
-          {text}
-    </button>
+    <Link href="/signin">
+      <button className="px-4 py-2 border-2 border-main-blue hover:bg-astral-blue text-black rounded-md font-semibold">
+        {text}
+      </button>
+    </Link>
   )
 }
 
