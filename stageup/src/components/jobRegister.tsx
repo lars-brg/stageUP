@@ -2,6 +2,10 @@
 
 import { useState } from "react";
 
+interface JobRegisterProps {
+    nomeBotao: string;
+}
+
 export default function JobModal() {
     const [isOpen, setIsOpen] = useState(false);
 

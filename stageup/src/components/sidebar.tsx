@@ -33,7 +33,7 @@ export default function Sidebar() {
                     <UserGroupIcon className="w-6 h-6 mr-3" />
                     Analisar Candidatos
                 </a>
-                <a href="/dashboard/calendar" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue">
+                <a href="/dashboard/interview" className="flex items-center px-4 py-3 text-stardust-white hover:text-stardust-white hover:bg-mid-blue rounded-lg border-2 border-mid-blue">
                     <DocumentDuplicateIcon className="w-6 h-6 mr-3" />
                     Entrevistas
                 </a>
