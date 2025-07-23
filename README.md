@@ -1,9 +1,9 @@
 <img width="3000" height="2250" alt="Billboards" src="https://github.com/user-attachments/assets/27a8afe6-1607-4863-9029-5fa1753f5fb2" />
-<h1 align="center">StageUp</h1>
+<h1 align="center">Stage</h1>
 
 ## Descrição
 
-A _StageUp_ é uma plataforma projetada para facilitar processos de recrutamento de estagiários e gestão de candidatos para empresas, e processos seletivos e oportunidades de experiência profissional para estudantes universitários. O sistema permite que empresas publiquem vagas, analisem candidaturas e acompanhem o progresso de candidaturas, enquanto candidatos podem explorar oportunidades, enviar currículos e acompanhar o status de suas incrições. A plataforma também oferece funcionalidades como criação de vagas com critérios detalhados, análise individual e comparativa de perfis, e um dashboard completo para visualização de métricas de contratação. O sistema possui uma interface responsiva que oferta uma experiência otimizada para desktop e mobile.
+A _Stage_ é uma plataforma projetada para facilitar processos de recrutamento de estagiários e gestão de candidatos para empresas, e processos seletivos e oportunidades de experiência profissional para estudantes universitários. O sistema permite que empresas publiquem vagas, analisem candidaturas e acompanhem o progresso de candidaturas, enquanto candidatos podem explorar oportunidades, enviar currículos e acompanhar o status de suas incrições. A plataforma também oferece funcionalidades como criação de vagas com critérios detalhados, análise individual e comparativa de perfis, e um dashboard completo para visualização de métricas de contratação. O sistema possui uma interface responsiva que oferta uma experiência otimizada para desktop e mobile.
 
 ## Pré-requisitos
 
